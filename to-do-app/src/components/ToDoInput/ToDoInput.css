@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.add-btn {
+    width: 63%;
+    margin: auto;
+}
+.todo-input{
+    width: 40vh;
+    height: 5vh;
+    color:black;
+    /* margin: auto; */
+    background-color: white;
+}
+.buttons-container{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}

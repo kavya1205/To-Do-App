@@ -1,0 +1,11 @@
+.card-section{
+    background-color: lightgrey;
+    width: 18em;
+    height: 112%;
+    margin: auto;
+}
+.list-items{
+    color: black;
+    text-wrap: wrap;
+    
+}

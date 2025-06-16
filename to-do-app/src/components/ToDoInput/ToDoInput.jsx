@@ -26,7 +26,10 @@ export default function ToDoInput() {
     }
     setIsAddTaskBtnClicked(false);
   };
-  console.log("addTask===>", addTask);
+  const handleDelete =(event)=>{
+    let updatedData = addTask.filter(d=>d.id !== event)
+    setAddTask(updatedData)
+  }
   return (
     <>
       <div className="container">
@@ -52,7 +55,7 @@ export default function ToDoInput() {
             </div>
           </>
         )}
-        <ToDoListSection todolistItems={addTask || []} />
+        <ToDoListSection todolistItems={addTask || []} handleDelete={(e)=>handleDelete(e)}/>
       </div>
     </>
   );

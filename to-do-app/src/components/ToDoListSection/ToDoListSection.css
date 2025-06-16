@@ -3,9 +3,17 @@
     width: 18em;
     height: 112%;
     margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
 }
 .list-items{
     color: black;
     text-wrap: wrap;
-    
+    margin-left: 6px;
+}
+.delete-icon{
+    cursor: pointer;
 }
